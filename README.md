@@ -6,9 +6,9 @@ https://quest-demo.glitch.me
 
 <br>
 <b>Video</b><br>
+
 [![](https://img.youtube.com/vi/J-AQpvOawJ0/0.jpg)](https://www.youtube.com/watch?v=J-AQpvOawJ0)
 <br><br>
-
 
 ## References
 <br>
@@ -20,3 +20,4 @@ https://github.com/donmccurdy/aframe-physics-system
 <br><br>
 Reference for teleport controll<br>
 https://github.com/fernandojsg/aframe-teleport-controls
+
