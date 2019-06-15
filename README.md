@@ -1,6 +1,6 @@
 # Oculus Quest Interactin Sample
 Primitive sample of interaction between controllers and virtual objects for Oculus Quest.
-## Experience
+## Experiences
 <b>Experienc on Glitch</b><br>
 https://quest-demo.glitch.me
 
@@ -8,7 +8,7 @@ https://quest-demo.glitch.me
 <b>Video</b><br>
 
 [![](https://img.youtube.com/vi/J-AQpvOawJ0/0.jpg)](https://www.youtube.com/watch?v=J-AQpvOawJ0)
-<br><br>
+<br><br><br>
 
 ## References
 <br>
