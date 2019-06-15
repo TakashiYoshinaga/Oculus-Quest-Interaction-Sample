@@ -1,6 +1,5 @@
-# Oculus-Quest-Input-with-A-Frame
-Sample for getting input data from controllers of Oculus Quest with A-Frame
-
+# Oculus Quest Interactin Sample
+Primitive sample of interaction between controllers and virtual objects for Oculus Quest.
 <b>Experienc on Glitch</b><br>
 https://quest-demo.glitch.me
 
