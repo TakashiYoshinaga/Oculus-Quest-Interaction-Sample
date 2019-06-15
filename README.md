@@ -1,5 +1,8 @@
 # WebVR Interactin Sample for Oculus Quest
-Primitive sample of interaction between controllers and virtual objects for Oculus Quest. You can experience just by opening following site in web browser of Oculus Quest since this sample was made with A-Frame.
+Primitive sample of interaction between controllers and virtual objects for Oculus Quest. You can experience just by opening following site in web browser of Oculus Quest since this sample was made with A-Frame.<br>
+Please see following repository if you are finding primitive sample of getting input from controller.<br>
+https://github.com/TakashiYoshinaga/Oculus-Quest-Input-Sample
+
 ## Experiences
 <b>Experienc on your device</b><br>
 https://quest-demo.glitch.me
