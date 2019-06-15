@@ -1,5 +1,5 @@
 # Oculus Quest Interactin Sample
-Primitive sample of interaction between controllers and virtual objects for Oculus Quest.
+Primitive sample of interaction between controllers and virtual objects for Oculus Quest. You can experience just by opening following site in web browser of Oculus Quest since this sample was made with A-Frame.
 ## Experiences
 <b>Experienc on Glitch</b><br>
 https://quest-demo.glitch.me
