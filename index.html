@@ -86,8 +86,7 @@
                 //A-buttorn Pressed 
                 this.el.addEventListener('abuttondown', function (e) {
                     //Aqurire all ball entities which are instantiated in a-scene
-                    var sceneEl = document.querySelector('a-scene');
-                    var els = sceneEl.sceneEl.querySelectorAll('.ball');
+                    var els = document.querySelectorAll('.ball');
                     //Destroy all ball entities
                     for (var i = 0; i < els.length; i++) {
                         els[i].parentNode.removeChild(els[i]);
