@@ -20,7 +20,7 @@
                 this.el.grip = false;
 
                 //Called when trigger is pressed 
-                this.el.addEventListener('triggerdown', function (event) {
+                this.el.addEventListener('triggerdown', function (e) {
                     //"this" reffers ctlR or L in this function
                     var point = this.object3D.getWorldPosition();
 
@@ -37,9 +37,8 @@
                     var dir = this.getAttribute("raycaster").direction;
 
                     //Setting shoot dierction and speed 
-                    var v = new THREE.Vector3();
+                    var v = new THREE.Vector3(dir.x, dir.y, dir.z);
                     var speed = 2000;
-                    v.set(dir.x, dir.y, dir.z);
                     v.multiplyScalar(speed);
                     v = this.object3D.localToWorld(v);
                     ball.velocity = v;
@@ -75,7 +74,7 @@
                 //Raycaster intersected with something.
                 this.el.addEventListener('raycaster-intersection', function (e) {
                     //Store first selected object as selectedObj 
-                    this.selectedObj = event.detail.els[0];
+                    this.selectedObj = e.detail.els[0];
                 });
                 //Raycaster intersection is finished.
                 this.el.addEventListener('raycaster-intersection-cleared', function (e) {
