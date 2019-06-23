@@ -111,7 +111,7 @@
         tick: function () {
 
             if (!this.el.selectedObj) { return; }
-            if (this.el.grip == false) { return; }
+            if (!this.el.grip) { return; }
             //Getting raycaster component which is attatched to ctlR or L
             //this.el means entity of ctlR or L in this function.
             var ray = this.el.getAttribute("raycaster").direction;
