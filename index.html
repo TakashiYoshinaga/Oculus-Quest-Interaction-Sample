@@ -118,7 +118,7 @@
             //setting tip of raycaster as 1.1m forward of controller.  
             var p = new THREE.Vector3(ray.x, ray.y, ray.z);
             p.normalize();
-            p.multiplyScalar(1.1);
+            p.multiplyScalar(1.2);
             //Convert local position into world coordinate.
             this.el.object3D.localToWorld(p);
             //Move selected object to follow the tip of raycaster.
