@@ -37,11 +37,9 @@
                     var dir = this.getAttribute("raycaster").direction;
 
                     //Setting shoot dierction and speed 
-                    var v = new THREE.Vector3(dir.x, dir.y, dir.z);
-                    var speed = 2000;
-                    v.multiplyScalar(speed);
-                    v = this.object3D.localToWorld(v);
-                    ball.velocity = v;
+                    var force = new THREE.Vector3(dir.x, dir.y, dir.z);
+                    force.multiplyScalar(2000);                   
+                    ball.force = this.object3D.localToWorld(force);
 
                     //Instantiate ball entity in a-scene
                     var scene = document.querySelector('a-scene');
@@ -52,9 +50,9 @@
                         //"this" reffers ball entity in this function
                         var p = this.object3D.position;
                         //this.velocity was calculated before this function is called.
-                        var v = this.velocity;
+                        var f = this.force;
                         this.body.applyForce(
-                            new CANNON.Vec3(v.x, v.y, v.z),
+                            new CANNON.Vec3(f.x, f.y, f.z),
                             new CANNON.Vec3(p.x, p.y, p.z)
                         );
                     });
