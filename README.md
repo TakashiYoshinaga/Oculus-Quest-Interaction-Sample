@@ -1,5 +1,10 @@
 # WebVR Interaction Sample for Oculus Quest
-Primitive sample of interaction between controllers and virtual objects for Oculus Quest. You can experience just by opening web site by using web browser of Oculus Quest since this sample was made with A-Frame.<br>
+Primitive sample of interaction between controllers and virtual objects for Oculus Quest. You can experience just by opening web site by using web browser of Oculus Quest since this sample was made with A-Frame.<br><br>
+You can learn how to:<br>
+1) get input data of right/left controllers.<br>
+2) manipulate object with raycaster library for A-Frame.<br>
+3) teleport without walking on foot.<br>
+4) shoot bullet by applying physics in vr environment.<br><br>
 Please see also following repository if you are finding a primitive sample of getting input from controller.<br>
 https://github.com/TakashiYoshinaga/Oculus-Quest-Input-Sample
 
