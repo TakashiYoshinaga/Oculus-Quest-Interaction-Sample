@@ -1,6 +1,6 @@
 # WebVR Interaction Sample for Oculus Quest 1 and 2
 Primitive sample of interaction between controllers and virtual objects for Oculus Quest. You can experience just by opening web site by using web browser of Oculus Quest since this sample was made with A-Frame.<br><br>
-This sample explains how to:<br>
+This sample shows you how to:<br>
 1) get input data of right/left controllers.<br>
 2) manipulate object with raycaster library for A-Frame.<br>
 3) teleport without walking on foot.<br>
